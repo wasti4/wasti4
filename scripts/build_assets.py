@@ -76,9 +76,9 @@ def section_label(label: str, y: float, t: dict) -> str:
 def intro(t: dict) -> str:
     height = 300
     phrases = [
-        'Currently building Folio, a calm media gallery for Windows.',
-        'Also maintaining Dustmap, a fast disk space analyzer.',
-        'Often writing bots and automation that save people hours.',
+        'Mostly I build software for fun and for myself.',
+        "Lately that's Folio, a calm media gallery for Windows.",
+        'And Dustmap, a fast disk space analyzer.',
     ]
     slot = 6.0
     period = slot * len(phrases)
